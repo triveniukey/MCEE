@@ -292,7 +292,7 @@ h5,
 .h6,
 h6 {
     font-family: var(--title-font);
-    color: var(--title-color);
+    color: #043177;
     text-transform: none;
     font-weight: 700;
     line-height: 1.4;
@@ -1487,9 +1487,9 @@ ul.wp-block-rss a {
     }
 }
 
-.th-container3 {
+/* .th-container3 {
     --main-container: 1680px
-}
+} */
 
 @media (min-width: 1370px) {
     .th-container4 {
@@ -8951,15 +8951,15 @@ te .footer-widget .widget_title:before {
     }
 }
 
-.header-logo {
+/* .header-logo {
     padding: 16px 0
-}
+} */
 
 .main-menu a {
     position: relative;
     display: block;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.02em;
     font-family: var(--body-font);
     color: #003a93;
@@ -10327,7 +10327,7 @@ te .footer-widget .widget_title:before {
 
 @media (max-width: 1500px) {
     .header-layout2 .menu-area {
-        --shape-width: 21%
+        --shape-width: 26%
     }
 }
 
@@ -16374,6 +16374,7 @@ span.select2-selection.select2-selection--single:focus {
     font-size: 16px;
     color: var(--light-color);
     margin-top: 10px;
+    /* text-align: justify; */
     line-height: 1.4
 }
 
@@ -17945,7 +17946,9 @@ span.select2-selection.select2-selection--single:focus {
     color: var(--title-color);
     background: var(--theme-color2)
 }
-
+.feature-card p{
+    color: #3f4ac7;
+}
 @media (max-width: 991px) {
     .feature-wrap1 .feature-item {
         padding: 10px 25px;
@@ -19314,7 +19317,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .counter-area1 {
     background: var(--title-color);
-    padding: 80px 0;
+    padding: 60px 0;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
@@ -25291,7 +25294,7 @@ span.select2-selection.select2-selection--single:focus {
 .video-area-1 {
     position: relative;
     overflow: hidden;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: 100% 100%;
     padding: 310px 0
@@ -29429,7 +29432,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .admission-forum-wrap {
-    margin-top: -390px
+    margin-top: -440px
 }
 
 .admission-forum-wrap .admission-forum-inner {
