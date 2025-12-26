@@ -10714,7 +10714,17 @@ te .footer-widget .widget_title:before {
     -webkit-transition: .4s;
     transition: .4s
 }
-
+.footer-wrapper.footer-layout1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../img/academic/mcee\ logo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 460px;
+    opacity: 0.08;
+    z-index: 1;
+}
 .copyright-wrap {
     padding: 26.5px 0;
     background-size: 100% auto;
