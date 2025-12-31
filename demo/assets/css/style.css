@@ -9001,7 +9001,7 @@ te .footer-widget .widget_title:before {
 .main-menu ul li:has(.sub-menu)>a:after,
 .main-menu ul li:has(.mega-menu)>a:after,
 .main-menu ul li.menu-item-has-children>a:after {
-    content: "\2b";
+    content: "\f107";
     position: relative;
     font-family: var(--icon-font);
     margin-left: 4px;
@@ -10721,7 +10721,7 @@ te .footer-widget .widget_title:before {
     background-image: url("../img/academic/mcee\ logo.webp");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 460px;
+    background-size: 420px;
     opacity: 0.08;
     z-index: 1;
 }
@@ -12686,8 +12686,10 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 
 .hero-2 .hero-image {
     position: absolute;
-    right: 70px;
-    bottom: 0
+    right: 1px;
+    top: 1px;
+    bottom: 0;
+    
 }
 
 @media (max-width: 1500px) {
@@ -12780,7 +12782,7 @@ ul.comment-list .th-comment-item:first-child>.th-post-comment {
 .hero-style2 {
     position: relative;
     z-index: 6;
-    padding: 220px 0 232px 0
+    padding: 220px 0 120px 0
 }
 
 @media (max-width: 1199px) {
