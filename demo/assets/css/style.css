@@ -11294,7 +11294,7 @@ te .footer-widget .widget_title:before {
 }
 
 .breadcumb-banner {
-    /* height: 100%; */
+    height: 100%;
     left: auto;
     right: -10px;
     z-index: 2;
@@ -29100,7 +29100,7 @@ span.select2-selection.select2-selection--single:focus {
 .program-details .program-blockquote {
     position: relative;
     /* background-color: #d3e4f6; */
-    padding: 56px 56px 21px 56px;
+    padding: 20px 56px 21px 56px;
     border: none !important;
     color: #ff9800;
     /* color: var(--body-color); */
