@@ -16886,7 +16886,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .contact-map.style3 iframe {
-    height: 653px
+    height: 453px
 }
 
 @media (max-width: 1199px) {
@@ -31650,6 +31650,10 @@ span.select2-selection.select2-selection--single:focus {
         padding: 12px;
     }
 }
+
+
+
+
 .custom-table {
     width: 100%;
     background: #fff2f2;
@@ -31681,6 +31685,10 @@ span.select2-selection.select2-selection--single:focus {
 .custom-table .col:not(.days) {
     width: 37.5%;
 }
+
+
+
+
 
 .affiliation-box {
   background: #eaf3ff;
@@ -31802,6 +31810,13 @@ span.select2-selection.select2-selection--single:focus {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+
 .holiday-wrapper {
     max-width: 900px;
     margin: 40px auto 20px;
@@ -31865,3 +31880,328 @@ span.select2-selection.select2-selection--single:focus {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+
+
+
+
+
+/* Main box */
+.lsmc-box {
+    margin-top: 40px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    overflow: hidden;
+    font-family: inherit;
+}
+
+/* Header */
+.lsmc-header {
+    background: #c81f4a; /* page red */
+    color: #fff;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Controls */
+.lsmc-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 15px;   /* height kam */
+    min-height: 40px;
+    background: #f9f9f9;
+    font-size: 13px;
+}
+.lsmc-controls .entries,
+.lsmc-controls .search {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.lsmc-controls input {
+    height: 26px;
+    padding: 2px 6px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Table */
+.lsmc-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.lsmc-table thead th {
+    background: #0d2d62; /* page blue */
+    color: #fff;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #e1e1e1;
+}
+
+.lsmc-table tbody td {
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.lsmc-table tbody tr:nth-child(even) {
+    background: #f6f8fc;
+}
+
+/* Footer */
+.lsmc-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+/* Pagination */
+.pagination .btn {
+    border: none;
+    background: #4a90e2;
+    color: #fff;
+    padding: 6px 14px;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pagination .btn.active {
+    background: #0d2d62;
+}
+
+
+
+
+
+
+
+
+  .table-box {
+        width: 100%;
+        max-width: 600px;
+        height: 350px;           /* box height fixed */
+        border: 1px solid #2b5cff;
+        overflow-y: auto;        /* scroll inside box */
+        margin: 20px auto;
+    }
+
+    .faculty-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+
+    .faculty-table th {
+        background: #8B4E16;
+        color: white;
+        padding: 12px;
+        border: 1px solid #2b5cff;
+        position: sticky;
+        top: 0;                 /* header fixed while scrolling */
+    }
+
+    .faculty-table td {
+        background: #f8ecd8;
+        color: #0000cc;
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #2b5cff;
+    }
+
+
+
+
+    
+.pb-video {
+    border: 2px solid #0066cc;
+    padding: 5px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.pb-video img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.video-Head {
+    display: block;
+    background: #2f73d9;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.video-title {
+    text-align: center;
+    font-size: 28px;
+    color: #cc00cc;
+    margin: 20px 0;
+}
+
+
+
+.gallery-bar {
+    background: #a87700;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    gap: 5px;
+}
+
+.tab {
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: #8b5500;
+    clip-path: polygon(0 0, 95% 0, 100% 50%, 95% 100%, 0 100%, 5% 50%);
+}
+
+.tab.active {
+    background: #d88a2c;
+}
+
+
+
+
+
+
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 30px;
+}
+
+.social-box {
+  text-align: center;
+}
+
+/* Heading white */
+.social-title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Pink underline same rahe */
+.social-title:after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background: #ff0066;
+  display: block;
+  margin: 6px auto 10px auto;
+}
+
+/* Icon center me + heading ke niche */
+.social-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;   /* 👈 center + niche space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+
+.fb {background:#3b5998;}
+.yt {background:#ff0000;}
+.tw {background:#1da1f2;}
+.insta {background:#e1306c;}
+.pin {background:#bd081c;}
+
+.social-card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.social-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+/* Top Row - 2 boxes */
+.facebook-box { grid-column: 1 / span 3; }
+.youtube-box  { grid-column: 4 / span 3; }
+
+/* Bottom Row - 3 boxes */
+.twitter-box   { grid-column: 1 / span 2; }
+.instagram-box { grid-column: 3 / span 2; }
+.pinterest-box { grid-column: 5 / span 2; }
+
+/* Mobile me sab one by one */
+@media(max-width:768px){
+  .social-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+.pagination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .pagination button {
+            min-width: 34px;
+            height: 34px;
+            padding: 0 8px;
+            border: 1px solid #ccc;
+            background: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .pagination button.active {
+            background: #2196f3;
+            color: white;
+            border-color: #2196f3;
+        }
+
+        .pagination button:disabled {
+            color: #aaa;
+            cursor: not-allowed;
+            background: #f0f0f0;
+        }
+
+        .download-link {
+            text-align: center;
+            color: navy;
+        }
+
+        @media (max-width: 600px) {
+            .lsmc-controls, .lsmc-footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
