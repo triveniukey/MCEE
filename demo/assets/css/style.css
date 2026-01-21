@@ -1710,7 +1710,7 @@ select::-moz-placeholder,
 .form-select::-moz-placeholder,
 textarea::-moz-placeholder,
 input::-moz-placeholder {
-    color: var(--title-color)
+    color: gray
 }
 
 select::-webkit-input-placeholder,
@@ -1766,7 +1766,7 @@ select::placeholder,
 .form-select::placeholder,
 textarea::placeholder,
 input::placeholder {
-    color: var(--title-color)
+    color: gray
 }
 
 input[type=date] {
@@ -2340,7 +2340,7 @@ label {
     margin-bottom: 0.5em;
     margin-top: -0.3em;
     display: block;
-    color: var(--title-color);
+    color: rgb(5, 87, 145);
     font-family: var(--body-font);
     font-size: 16px
 }
@@ -10422,7 +10422,7 @@ te .footer-widget .widget_title:before {
     position: absolute;
     width: var(--shape-width);
     height: 100px;
-    /* bottom: 0px; */
+    bottom: 0px;
     left: 0;
     content: "";
     background-color: var(--theme-color);
@@ -31926,6 +31926,8 @@ span.select2-selection.select2-selection--single:focus {
     display: flex;
     align-items: center;
     gap: 6px;
+    border: 1px solid rgb(194, 192, 192);
+    padding: 0 10px;
 }
 .lsmc-controls input {
     height: 26px;
@@ -31945,6 +31947,7 @@ span.select2-selection.select2-selection--single:focus {
     background: #0d2d62; /* page blue */
     color: #fff;
     padding: 12px;
+    text-align: center;
     font-size: 14px;
     border: 1px solid #e1e1e1;
 }
@@ -31952,7 +31955,7 @@ span.select2-selection.select2-selection--single:focus {
 .lsmc-table tbody td {
     padding: 12px;
     font-size: 14px;
-    color: #333;
+    color: #094387;
     border: 1px solid #e1e1e1;
     text-align: center;
 }
@@ -31969,6 +31972,7 @@ span.select2-selection.select2-selection--single:focus {
     padding: 15px 20px;
     background: #f9f9f9;
     font-size: 14px;
+    border: 0.5px solid rgb(192, 190, 190);
 }
 
 /* Pagination */
