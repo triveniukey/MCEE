@@ -263,7 +263,7 @@ p {
     margin: 0 0 18px 0;
     color: #024482;
     line-height: 1.54;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 h1 a,
@@ -3275,11 +3275,11 @@ textarea.is-invalid {
 .th-btn.style-border1 {
     background: transparent;
     border: 1px solid var(--th-border-color);
-    color: var(--title-color)
+    color: #1f46b0
 }
 
 .th-btn.style-border1::after {
-    background: var(--title-color)
+    background: #1f46b0
 }
 
 .th-btn.style-border1:hover {
@@ -3305,12 +3305,12 @@ textarea.is-invalid {
 
 .th-btn.style-border2 {
     background-color: transparent;
-    border: 1px solid var(--title-color);
-    color: var(--title-color)
+    border: 1px solid #1f46b0;
+    color: #1f46b0
 }
 
 .th-btn.style-border2::after {
-    background: var(--title-color)
+    background: #1f46b0
 }
 
 .th-btn.style-border2:hover {
@@ -4753,7 +4753,7 @@ hr.title-line {
 .reveal img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     -webkit-transform-origin: left;
     -ms-transform-origin: left;
     transform-origin: left
@@ -8720,6 +8720,11 @@ te .footer-widget .widget_title:before {
 .footer-widget.widget_rss ul cite,
 .footer-widget.wp-block-rss ul cite {
     color: var(--theme-color)
+}
+.footer-widget.widget_nav_menu a {
+    width: 100%;
+    pointer-events: auto;
+    z-index: 5;
 }
 
 .about-logo {
@@ -32034,17 +32039,18 @@ span.select2-selection.select2-selection--single:focus {
     }
 
     .faculty-table th {
-        background: #8B4E16;
+        background: #0d2d62;
         color: white;
         padding: 12px;
+        text-align: center;
         border: 1px solid #2b5cff;
         position: sticky;
         top: 0;                 /* header fixed while scrolling */
     }
 
     .faculty-table td {
-        background: #f8ecd8;
-        color: #0000cc;
+     
+        color:#094387;
         padding: 12px;
         text-align: center;
         border: 1px solid #2b5cff;
