@@ -1684,7 +1684,7 @@ input {
     height: 58px;
     padding: 0 25px 0 25px;
     padding-right: 45px;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     color: var(--title-color);
     background-color: var(--smoke-color2);
     font-size: 16px;
@@ -1766,7 +1766,7 @@ select::placeholder,
 .form-select::placeholder,
 textarea::placeholder,
 input::placeholder {
-    color: gray
+    color: rgb(98, 178, 239)
 }
 
 input[type=date] {
@@ -2342,7 +2342,8 @@ label {
     display: block;
     color: rgb(5, 87, 145);
     font-family: var(--body-font);
-    font-size: 16px
+    font-size: 16px;
+    font-weight: bold;
 }
 
 textarea.is-invalid,
@@ -4204,6 +4205,7 @@ hr.title-line {
     font-size: 33px;
     font-weight: 600;
     z-index: 2;
+    text-align: center;
     margin-bottom: 32px !important
 }
 
@@ -4211,10 +4213,10 @@ hr.title-line {
     content: "";
     position: absolute;
     content: "";
-    left: 0;
+    /* left: 0; */
     bottom: -12px;
     width: 136px;
-    height: 1px;
+    height: 2px;
     background-color: var(--theme-color)
 }
 
@@ -11323,11 +11325,11 @@ te .footer-widget .widget_title:before {
 }
 
 .breadcumb-banner {
-    height: 100%;
+    /* height: 100%; */
     left: auto;
     right: -10px;
     z-index: 2;
-    width: 1091px;
+    width: 1000px;
     -webkit-mask-image: url("../img/bg/breadcrumbs-shape.png");
     mask-image: url("../img/bg/breadcrumbs-shape.png");
     -webkit-mask-repeat: no-repeat;
@@ -11405,7 +11407,7 @@ te .footer-widget .widget_title:before {
 }
 
 .breadcumb-wrapper .breadcumb-content {
-    --space: 142px;
+    --space: 112px;
     padding: var(--space) 0;
     position: relative;
     z-index: 1
@@ -16507,7 +16509,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .contact-feature {
-    padding: 71px 40px;
+    padding: 41px 40px;
     border: 1px solid #D3DBE2;
     display: -webkit-box;
     display: -webkit-flex;
@@ -16583,7 +16585,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .contact-image {
     overflow: hidden;
-    height: 768px
+    height: 555px
 }
 
 @media (max-width: 1399px) {
@@ -27880,7 +27882,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .campus-card.style2 {
-    position: relative
+    position: relative;
+    border: 10px solid white;
+   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .campus-card.style2 .box-thumb img {
@@ -28312,7 +28316,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .apply-stadum-wrapp .box-text {
     font-size: 18px;
-    max-width: 520px
+    max-width: 520px;
 }
 
 @media (max-width: 1199px) {
@@ -28325,7 +28329,6 @@ span.select2-selection.select2-selection--single:focus {
     position: relative;
     z-index: 3;
     min-width: 696px;
-    margin-left: 50px;
     margin-right: -10%
 }
 
@@ -31623,7 +31626,8 @@ span.select2-selection.select2-selection--single:focus {
     width: 90%;
 }
 .house-table-box {
-    width: 100%;
+    width: 50%;
+     margin: 0 auto;
     border: 1px solid #f3c6c6;
     background: #fff2f2;
 }
@@ -31654,7 +31658,7 @@ span.select2-selection.select2-selection--single:focus {
     border-bottom: 1px solid #f3c6c6;
     font-size: 17px;
     text-align: center;
-    color: #8b1d14;
+    color: #053578;
 }
 
 /* Remove last border */
@@ -31668,10 +31672,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /* Pink text */
-.pink-text {
-    color: #ff0080;
-    font-weight: 600;
-}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -31920,6 +31921,8 @@ span.select2-selection.select2-selection--single:focus {
 
 /* Main box */
 .lsmc-box {
+    width: 95%;
+    margin: 0 auto;
     margin-top: 40px;
     background: #ffffff;
     border-radius: 6px;
@@ -31965,7 +31968,7 @@ span.select2-selection.select2-selection--single:focus {
 
 /* Table */
 .lsmc-table {
-    width: 100%;
+    
     border-collapse: collapse;
 }
 
@@ -32065,8 +32068,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .video-content img {
-  width: 100%;
-  height: 450px;
+  /* width: 100%; */
+  height: 350px;
   object-fit: cover;
 }
 
@@ -32223,3 +32226,7 @@ span.select2-selection.select2-selection--single:focus {
                 align-items: flex-start;
             }
         }
+        .hfu{
+            font-size: 24px;
+        }
+        
