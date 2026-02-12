@@ -36,7 +36,11 @@
 *,
 :after,
 :before {
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+.th-program-wrapper .header-layout2 .menu-area::before{
+      box-sizing: none;
+      
 }
 
 @media (prefers-reduced-motion:no-preference) {
