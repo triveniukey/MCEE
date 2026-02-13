@@ -2074,10 +2074,11 @@ textarea.style2 {
   padding: 18px 30px;
   /* background: #9b4a00;         */
   text-align: center;
-
+    background-color: var(--theme-color);
   border-radius: 6px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
+
 
 .tk-box h4 {
   margin: 0;
@@ -4074,7 +4075,7 @@ textarea.is-invalid {
 }
 
 .box-title {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.417;
     font-weight: 600;
     margin-top: -0.32em
@@ -4084,9 +4085,9 @@ textarea.is-invalid {
     color: inherit
 }
 
-.box-title a:hover {
+/* .box-title a:hover {
     color: var(--theme-color)
-}
+} */
 
 .box-subtitle {
     margin-bottom: 8px
@@ -25430,7 +25431,7 @@ span.select2-selection.select2-selection--single:focus {
     overflow: hidden;
     /* background-attachment: fixed; */
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: center;
     padding: 310px 0
 }
 
@@ -28114,7 +28115,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .campus-card.style2 .box-title-wrap {
     width: 100%;
-    bottom: -50px;
+    bottom: -60px;
     z-index: 1;
     -webkit-transition: 0.4s ease-in;
     transition: 0.4s ease-in
